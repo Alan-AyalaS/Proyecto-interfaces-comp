@@ -104,6 +104,66 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.categorias {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.categorias, .lista_categorias {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  list-style: none;
+  text-decoration: none;
+  padding: 0%;
+}
+
+.nutricion_cat {
+  padding: 1rem 2rem;
+  background-color: #badce3;
+}
+
+.nutricion_cat:hover {
+  padding: 1rem 2rem;
+  background-color: #c1d8dd;
+}
+
+.desarrollo_cat {
+  padding: 1rem 2rem;
+  background-color: #badce3;
+}
+
+.desarrollo_cat:hover {
+  padding: 1rem 2rem;
+  background-color: #c1d8dd;
+}
+
+.salud_cat {
+  padding: 1rem 2rem;
+  background-color: #badce3;
+}
+
+.salud_cat:hover {
+  padding: 1rem 2rem;
+  background-color: #c1d8dd;
+}
+
+.categorias, .lista_categorias .salud_cat {
+}
+
+.categorias, .lista_categorias .desarrollo_cat {
+}
+
+.categorias, .lista_categorias li a{
+  font-weight: bold;
+}
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
