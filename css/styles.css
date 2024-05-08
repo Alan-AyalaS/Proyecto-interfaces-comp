@@ -157,6 +157,11 @@ body {
   font-weight: bold;
 }
 
+.contenedor_botones {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 450px){
 
   .categorias {
@@ -226,6 +231,12 @@ body {
 
   .col-md-10{
     margin-top: 1.7rem !important;
+  }
+
+  .contenedor_botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
 }
