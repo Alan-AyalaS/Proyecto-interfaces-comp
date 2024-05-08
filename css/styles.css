@@ -124,12 +124,12 @@ body {
 }
 
 .nutricion_cat {
-  padding: 1rem 2rem;
+  padding: 1rem 2.7rem;
   background-color: #badce3;
 }
 
 .nutricion_cat:hover {
-  padding: 1rem 2rem;
+  padding: 1rem 2.7rem;
   background-color: #c1d8dd;
 }
 
@@ -144,25 +144,81 @@ body {
 }
 
 .salud_cat {
-  padding: 1rem 2rem;
+  padding: 1rem 4.2rem;
   background-color: #badce3;
 }
 
 .salud_cat:hover {
-  padding: 1rem 2rem;
+  padding: 1rem 4.2rem;
   background-color: #c1d8dd;
-}
-
-.categorias, .lista_categorias .salud_cat {
-}
-
-.categorias, .lista_categorias .desarrollo_cat {
 }
 
 .categorias, .lista_categorias li a{
   font-weight: bold;
 }
 
+@media screen and (max-width: 450px){
+
+  .categorias {
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .categorias, .lista_categorias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  
+    list-style: none;
+    text-decoration: none;
+    padding: 0%;
+  }
+
+  .categorias, .lista_categorias li{
+    margin-bottom: 2.5rem;
+  }
+  
+  .nutricion_cat {
+    padding: 1rem 2.7rem;
+    background-color: #badce3;
+  }
+  
+  .nutricion_cat:hover {
+    padding: 1rem 2.7rem;
+    background-color: #c1d8dd;
+  }
+  
+  .desarrollo_cat {
+    padding: 1rem 2rem;
+    background-color: #badce3;
+  }
+  
+  .desarrollo_cat:hover {
+    padding: 1rem 2rem;
+    background-color: #c1d8dd;
+  }
+  
+  .salud_cat {
+    padding: 1rem 4.2rem;
+    background-color: #badce3;
+  }
+  
+  .salud_cat:hover {
+    padding: 1rem 4.2rem;
+    background-color: #c1d8dd;
+  }
+  
+  .categorias, .lista_categorias li a{
+    font-weight: bold;
+  }
+
+}
 
 hr {
   margin: 1rem 0;
